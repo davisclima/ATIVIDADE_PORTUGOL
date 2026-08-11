@@ -1,11 +1,24 @@
-programa {
-  funcao inicio() {
-    inteiro i,s, n[5]
-    para(i=0;i<5;i++){
-      leia(n[i])
-    }
-    s=n[0]+n[1]+n[2]+n[3]+n[4]
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro i,numeros[5],soma=0,media=0
 
-    escreva("A soma dos numeros eh: ", s," e a media eh ",s/5)
-  }
+		para(i=0; i<5;i++){
+			leia(numeros[i])
+			}
+			
+			soma = numeros[0]
+
+			para(i=0;i<4;i++){
+				soma +=numeros[i+1]
+				}
+					
+				media = soma/5
+
+					escreva("\nSoma dos numeros informados: ",soma,"\nMedia dos numeros: ",media,"\n")
+				
+			
+	}
 }
