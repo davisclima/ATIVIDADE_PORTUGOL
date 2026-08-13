@@ -18,8 +18,8 @@ programa
         maior=numeros[1]
          }
          senao se(numeros[2]<=numeros[1]<=numeros[0]<=numeros[3]<=numeros[4]){
-      maior=numeros[2]
-      }
+    	 maior=numeros[2]
+    	 }
           senao se(numeros[3]<=numeros[1]<=numeros[2]<=numeros[3]<=numeros[0]){
           maior=numeros[3]
           }
