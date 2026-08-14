@@ -4,7 +4,7 @@ programa {
     escreva("Insira a quantidade de números que serão informados: ")
     leia(qnt_nums)
 
-      inteiro nums[99999999]
+      inteiro nums[99999]
 
       para(i=0;i<qnt_nums;i++){
         escreva("\nInforme o ",i+1," número: ")
