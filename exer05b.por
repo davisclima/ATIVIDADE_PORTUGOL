@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
 	inteiro num,exp
-    escreva("Cálculo de potênciação com números naturais\n\nInforme o número da base: ")
+    escreva("Cálculo de potênciação com expoentes naturais\n\nInforme o número da base: ")
     leia(num)
       escreva("Informe seu expoente: ")
       leia(exp)
