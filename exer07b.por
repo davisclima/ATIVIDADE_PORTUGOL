@@ -2,9 +2,9 @@ programa {
   funcao inicio() {
     inteiro n1,n2,fib,i,nesimo,quantidade=0
 
-    escreva("-----Sequência Fibonacci-----\n\nInsira o primeiro número da sequência fibonacci(Só vai até 500): ")
+    escreva("-----Sequência Fibonacci com inteiros-----\n\nInsira o primeiro número da sequência fibonacci: ")
     leia(n1)
-      escreva("\nInsira a quantidade de números da sequeência: ")
+      escreva("\nInsira a quantidade de números da sequência: ")
       leia(nesimo)
       
         se((n1>nesimo)ou(-n1<-nesimo)){
