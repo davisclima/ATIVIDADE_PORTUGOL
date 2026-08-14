@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
-    real qnt_nums,i,soma=0,maior=0,menor=999999999,stop=0
+    real qnt_nums,soma=0,maior=0,menor=999999999,stop=0
+    inteiro i
     escreva("Insira a quantidade de números que serão informados: ")
     leia(qnt_nums)
       se(qnt_nums<=0){}senao{
