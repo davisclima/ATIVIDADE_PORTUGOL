@@ -6,6 +6,7 @@ programa
 		inteiro i,numeros[5],soma=0,media=0
 
 		para(i=0; i<5;i++){
+			escreva("Informe o ",i+1," numero: ")
 			leia(numeros[i])
 			}
 			
