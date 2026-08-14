@@ -6,7 +6,7 @@ programa {
       se(qnt_nums<=0){}senao{
       
 
-      real nums[qnt_nums]
+      real nums[9999999]
 
       para(i=0;i<qnt_nums;i++){
         escreva("\nInforme o ",i+1," número: ")
