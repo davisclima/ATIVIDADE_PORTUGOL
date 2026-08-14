@@ -3,7 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro i,numeros[5],soma=0,media=0
+		real numeros[5],soma=0,media=0
+		inteiro i
 
 		para(i=0; i<5;i++){
 			escreva("Informe o ",i+1," numero: ")
