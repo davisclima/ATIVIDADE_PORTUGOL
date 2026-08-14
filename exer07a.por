@@ -2,7 +2,7 @@ programa {
   funcao inicio() {
     inteiro n1,n2,fib,i
 
-    escreva("Sequência Fibonacci\n\nInsira o primeiro número da sequência fibonacci(Só vai até 500): ")
+    escreva("Sequência Fibonacci\n\nInsira o primeiro número da sequência fibonacci(Só vai até um valor após 500): ")
     leia(n1)
 
       se((n1>500)ou(n1<-500)){
